@@ -6,4 +6,8 @@ The decimal separator of numbers read from the input and the number output shoul
 sc.useLocale(Locale.US); 
 After listing the numeric values, we then use the format() method of the output stream System.out with an extended number of parameters, where we use the Locale.US value as the first parameter, only as the second parameter of the method follows the text string template and then other parameters that we want to format into the text string.
 
-In the case of the calculated average temperature, the statement in the required format is provided by the command: System.out.format(Locale.US, "%1.2f", averageTemperature); Sample input 8.0 20.0 16.0 Sample output 15.0
+In the case of the calculated average temperature, the statement in the required format is provided by the command: System.out.format(Locale.US, "%1.2f", averageTemperature); 
+
+Sample input 8.0 20.0 16.0 
+
+Sample output 15.0
